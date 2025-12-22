@@ -13,7 +13,6 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-Compkiller.scale
 
 --- Export Types ---
 
