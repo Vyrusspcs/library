@@ -1,3 +1,5 @@
+print("test")
+
 --[[
     		Compkiller Interface
 
