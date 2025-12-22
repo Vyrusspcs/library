@@ -1,4 +1,4 @@
-print(Test)
+print("Test")
 --[[
     		Compkiller Interface
 
