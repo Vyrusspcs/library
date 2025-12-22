@@ -1,5 +1,4 @@
-
-
+print("test")
 --[[
     		Compkiller Interface
 
@@ -15,7 +14,7 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-
+Compkiller.scale
 
 --- Export Types ---
 
