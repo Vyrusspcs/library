@@ -1,5 +1,3 @@
-print("test")
-
 --[[
     		Compkiller Interface
 
@@ -14,7 +12,6 @@ print("test")
   	- Added Auto Color Logo
 		Compkiller:CustomIconHighlight()
 --]]
-
 
 --- Export Types ---
 
@@ -376,7 +373,7 @@ local Compkiller = {
 };
 
 Compkiller.Colors = {
-	Highlight = Color3.fromRGB(rgb(18, 120, 254)),
+	Highlight = Color3.fromRGB(17, 238, 253),
 	Toggle = Color3.fromRGB(14, 203, 213),
 	Risky = Color3.fromRGB(251, 255, 39),
 	BGDBColor = Color3.fromRGB(22, 24, 29),
