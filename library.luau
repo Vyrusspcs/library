@@ -13,8 +13,6 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-Watermark
-
 print("test")
 
 --- Export Types ---
