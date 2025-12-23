@@ -13,7 +13,7 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-print("test")
+print("testt")
 
 --- Export Types ---
 
@@ -9637,7 +9637,7 @@ function Compkiller.new(Config : Window)
 				Property = 'BackgroundColor3'
 			});
 
-			Logo.BackgroundTransparency = 0.300
+			Logo.BackgroundTransparency = 1
 			Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Logo.BorderSizePixel = 0
 			Logo.Position = UDim2.new(0, 5, 0.5, 0)
@@ -9651,6 +9651,7 @@ function Compkiller.new(Config : Window)
 			Frame.Parent = Logo
 			Frame.AnchorPoint = Vector2.new(0, 0.5)
 			Frame.BackgroundColor3 = Compkiller.Colors.Highlight
+			Frame.BackgroundTransparency = 1.000
 			Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Frame.BorderSizePixel = 0
 			Frame.Position = UDim2.new(1, -5, 0.5, 0)
