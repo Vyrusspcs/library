@@ -13,7 +13,7 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-print("test")
+print("test1")
 
 --- Export Types ---
 
