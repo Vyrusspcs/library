@@ -13,7 +13,6 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-
 --- Export Types ---
 
 export type cloneref = (target: Instance) -> Instance;
@@ -361,7 +360,7 @@ local Compkiller = {
 	Logo = "rbxassetid://120245531583106",
 	Windows = {},
 	Scale = {
-		Window = UDim2.new(0, 620,0, 565),
+		Window = UDim2.new(0, 500,0, 565),
 		Mobile = UDim2.new(0, 450,0, 375),
 		TabOpen = 185,
 		TabClose = 85,
@@ -9874,7 +9873,7 @@ function Compkiller.new(Config : Window)
 		config = config or {};
 		config.Logo = config.Logo or Config.Logo;
 		config.Username = config.Username or LocalPlayer.DisplayName;
-		config.ExpireDate = config.ExpireDate or "Free Version";
+		config.ExpireDate = config.ExpireDate or "NEVER";
 		config.WindowName = config.WindowName or Config.Name;
 		config.UserProfile = config.UserProfile or WindowArgs.Profile or string.format("rbxthumb://type=AvatarHeadShot&id=%s&w=150&h=150",tostring(LocalPlayer.UserId));
 
