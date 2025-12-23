@@ -14,8 +14,6 @@ print("test")
 		Compkiller:CustomIconHighlight()
 --]]
 
-Compkiller.scale
-
 --- Export Types ---
 
 export type cloneref = (target: Instance) -> Instance;
