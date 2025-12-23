@@ -13,8 +13,6 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-
-
 --- Export Types ---
 
 export type cloneref = (target: Instance) -> Instance;
@@ -362,7 +360,7 @@ local Compkiller = {
 	Logo = "rbxassetid://120245531583106",
 	Windows = {},
 	Scale = {
-		Window = UDim2.new(0, 600,0, 565),
+		Window = UDim2.new(0, 620,0, 500),
 		Mobile = UDim2.new(0, 450,0, 375),
 		TabOpen = 185,
 		TabClose = 85,
