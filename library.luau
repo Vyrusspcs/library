@@ -13,6 +13,8 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
+print("test")
+
 --- Export Types ---
 
 export type cloneref = (target: Instance) -> Instance;
@@ -363,7 +365,7 @@ local Compkiller = {
 		Window = UDim2.new(0, 620,0, 500),
 		Mobile = UDim2.new(0, 450,0, 375),
 		TabOpen = 185,
-		TabClose = 85,
+		TabClose = 100,
 	},
 	PerformanceMode = false,
 	WindowsNil = {},
@@ -6429,7 +6431,7 @@ function Compkiller.new(Config : Window)
 	TabFrame.BorderSizePixel = 0
 	TabFrame.ClipsDescendants = true
 	TabFrame.Position = UDim2.new(0, 25, 0, 0)
-	TabFrame.Size = UDim2.new(0, Compkiller.Scale.TabOpen, 1, 0)
+	TabFrame.Size = UDim2.new(0, 100, 1, 0)
 
 	UICorner_2.Parent = TabFrame
 
