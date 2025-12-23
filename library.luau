@@ -13,7 +13,7 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-print("test1")
+print("test")
 
 --- Export Types ---
 
@@ -9630,7 +9630,7 @@ function Compkiller.new(Config : Window)
 			Logo.Name = Compkiller:_RandomString()
 			Logo.Parent = Watermark
 			Logo.AnchorPoint = Vector2.new(1, 0.5)
-			Logo.BackgroundColor3 = Compkiller.Colors.BGDBColor
+			Logo.BackgroundTransparency = 1
 
 			table.insert(Compkiller.Elements.BGDBColor,{
 				Element = Logo,
@@ -9667,6 +9667,7 @@ function Compkiller.new(Config : Window)
 			CompLogo.Parent = Logo
 			CompLogo.AnchorPoint = Vector2.new(0.5, 0.5)
 			CompLogo.BackgroundTransparency = 1.000
+			CompLogo.ImageTransparency = 1.000
 			CompLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			CompLogo.BorderSizePixel = 0
 			CompLogo.Position = UDim2.new(0.5, -2, 0.5, 0)
