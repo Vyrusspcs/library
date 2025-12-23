@@ -13,7 +13,7 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-print("testt")
+print("test1")
 
 --- Export Types ---
 
@@ -9739,10 +9739,12 @@ function Compkiller.new(Config : Window)
 				Icon.Size = UDim2.fromOffset(15,15)
 				Icon.SizeConstraint = Enum.SizeConstraint.RelativeYY
 				Icon.ZIndex = 156
+				Icon.ImageTransparency = 1.000
 				Icon.Image = Compkiller:_GetIcon(Watermark.Icon);
 
 				TextLabel.Parent = WaternarkList
 				TextLabel.BackgroundTransparency = 1.000
+				TextLabel.TextTransparency = 1.000
 				TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				TextLabel.BorderSizePixel = 0
 				TextLabel.Size = UDim2.new(0, 50, 0.699999988, 0)
