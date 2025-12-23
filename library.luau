@@ -1634,7 +1634,7 @@ function Compkiller:_Blur(element : Frame , WindowRemote) : RBXScriptSignal
 
 		if IsWindowActive then
 			local corner0 = element.AbsolutePosition;
-			local corner1 = corner0 + element.AbsoluteSize;
+			local corner1 = corner0 + element.AbsoluteSize + Vector2.new(200, 0);
 
 			local ray0 = CurrentCamera.ScreenPointToRay(CurrentCamera,corner0.X, corner0.Y, 1);
 			local ray1 = CurrentCamera.ScreenPointToRay(CurrentCamera,corner1.X, corner1.Y, 1);
