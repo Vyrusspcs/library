@@ -13,7 +13,7 @@
 		Compkiller:CustomIconHighlight()
 --]]
 
-print("test1")
+print("test3")
 
 --- Export Types ---
 
@@ -1634,7 +1634,7 @@ function Compkiller:_Blur(element : Frame , WindowRemote) : RBXScriptSignal
 
 		if IsWindowActive then
 			local corner0 = element.AbsolutePosition;
-			local corner1 = corner0 + element.AbsoluteSize + Vector2.new(200, 0);
+			local corner1 = corner0 + element.AbsoluteSize;
 
 			local ray0 = CurrentCamera.ScreenPointToRay(CurrentCamera,corner0.X, corner0.Y, 1);
 			local ray1 = CurrentCamera.ScreenPointToRay(CurrentCamera,corner1.X, corner1.Y, 1);
@@ -9617,11 +9617,11 @@ function Compkiller.new(Config : Window)
 				Property = 'BackgroundColor3'
 			});
 
-			Watermark.BackgroundTransparency = 0.025
+			Watermark.BackgroundTransparency = 1
 			Watermark.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Watermark.BorderSizePixel = 0
 			Watermark.Position = UDim2.new(1, -10, 0, 10)
-			Watermark.Size = UDim2.new(0, 45, 0, 23)
+			Watermark.Size = UDim2.new(0, 1, 0, 1)
 			Watermark.ZIndex = 150
 
 			UICorner.CornerRadius = UDim.new(0, 3)
