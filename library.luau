@@ -6327,7 +6327,7 @@ function Compkiller.new(Config : Window)
 		Tabs = {},
 		LastTab = nil,
 		IsOpen = true,
-		AlwayShowTab = false,
+		AlwayShowTab = true,
 		THREADS = {},
 		PerformanceMode = false,
 		Notify = Compkiller.newNotify()
@@ -6338,6 +6338,9 @@ function Compkiller.new(Config : Window)
 	if Compkiller:_IsMobile() then
 		WindowArgs.AlwayShowTab = true;
 	end;
+
+	-- Always-open tabs by default; ensure the hover signal is active on startup
+	TabHover:Fire(true);
 
 	local CompKiller = Instance.new("ScreenGui")
 	local MainFrame = Instance.new("Frame")
